@@ -32,6 +32,21 @@ nav {
     color: #FFD700; /* 金黄色 */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* 增加立体感 */
 }
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 28px;      /* 黄拾纪文字大小 */
+    font-family: 'Brush Script MT', cursive; /* 飘逸字体 */
+    color: #FFD700;       /* 黄色 */
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 50px;          /* logo 宽度，可调 */
+    height: 50px;         /* logo 高度，可调 */
+    margin-right: 10px;   /* 图片与文字间距 */
+    object-fit: contain;
+}
 nav ul {
     display: flex;
     list-style: none;
