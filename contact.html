@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>联系我们 - 大学拾光优品</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* 联系我们页面专属样式 */
+.contact-section {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.contact-section ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+.contact-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 微信二维码部分 */
+.wechat-section {
+    margin-top: 30px;
+}
+.wechat-section h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.wechat-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+}
+.wechat-qr-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.qr-box {
+    width: 150px;
+    text-align: center;
+}
+.qr-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.qr-box p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* 手机端适配 */
+@media screen and (max-width: 768px) {
+    .contact-section h2 {
+        font-size: 26px;
+    }
+    .wechat-qr-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<nav>
+    <div class="logo">大学拾光优品</div>
+    <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="product.html">产品</a></li>
+        <li><a href="contact.html" class="active">联系我们</a></li>
+    </ul>
+</nav>
+
+<!-- 联系我们模块 -->
+<section class="contact-section">
+    <div class="contact-container">
+        <h2>联系我们</h2>
+        <p>如果您有任何问题或合作意向，请随时联系我们：</p>
+        <ul>
+            <li><strong>王女士：</strong><a href="tel:15902989930">15902989930</a></li>
+            <li><strong>李先生：</strong><a href="tel:18092334570">18092334570</a></li>
+            <li><strong>地址：</strong>陕西省西安市未央区凤城四路世融国际</li>
+        </ul>
+
+</body>
+</html>

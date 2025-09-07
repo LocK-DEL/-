@@ -250,3 +250,87 @@ h1 {
     color: #111;
     font-weight: 700;
 }
+/* 联系方式模块优化 */
+.contact-section {
+    background: #ffffff; /* 纯白背景 */
+    padding: 50px 20px; /* 上下留白更大 */
+    text-align: center; /* 内容居中 */
+    border-top: 1px solid #e0e0e0; /* 顶部分隔线，显得干净 */
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+/* 电话、邮箱等信息 */
+.contact-info {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-info a {
+    color: #007BFF; /* 蓝色链接 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #0056b3; /* 悬停深蓝 */
+}
+/* 关于我们模块 */
+.about-section {
+    background: #ffffff; /* 白色背景 */
+    text-align: center;
+    padding: 80px 20px; /* 上下间距大一些 */
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-subtitle {
+    font-size: 24px;
+    color: #007BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+/* 优雅的按钮 */
+.about-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
